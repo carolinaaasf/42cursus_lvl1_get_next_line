@@ -6,7 +6,7 @@
 /*   By: csilva-f <csilva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 20:56:08 by csilva-f          #+#    #+#             */
-/*   Updated: 2022/11/15 23:03:54 by csilva-f         ###   ########.fr       */
+/*   Updated: 2022/11/17 22:01:23 by csilva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ size_t	ft_strlen(const char *str)
 	size_t	i;
 
 	i = 0;
+	if (!str)
+		return (0);
 	while (str[i] != '\0')
 		i++;
 	return (i);
@@ -24,47 +26,50 @@ size_t	ft_strlen(const char *str)
 
 char	*ft_strchr(const char *s, int c)
 {
-	int		i;
+	size_t	i;
+	size_t	len;
 	char	*str;
 
-	i = 0;
+	i = -1;
+	if (!s)
+		return (NULL);
+	len = ft_strlen(s);
 	str = (char *)s;
-	while (str[i] != '\0')
+	while (str[++i] != '\0')
 	{
 		if (str[i] == c)
 			return (&str[i]);
-		i++;
 	}
 	if (c == '\0')
-		return (&str[i]);
+		return (&str[len]);
 	return (0);
 }
 
-char	*ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char *s1, char *s2)
 {
-	int		size;
-	char	*str;
-	int		i;
-	int		j;
+	size_t		size;
+	char		*str;
+	size_t		i;
+	size_t		j;
 
-	if (!s1)
-		return (0);
+	if (s1 == NULL)
+	{
+		s1 = (char *)malloc(1 * sizeof(char));
+		s1[0] = '\0';
+	}
+	if (s1 == NULL || s2 == NULL)
+		return (NULL);
 	size = ft_strlen((char *)s1) + ft_strlen((char *)s2) + 1;
 	str = (char *)malloc(size * sizeof(char));
 	if (str == NULL)
-		return (0);
-	i = 0;
-	while (s1[i] != '\0')
-	{
+		return (NULL);
+	i = -1;
+	while (s1[++i] != '\0')
 		str[i] = s1[i];
-		i++;
-	}
-	j = 0;
-	while (s2[j] != '\0')
-	{
+	j = -1;
+	while (s2[++j] != '\0')
 		str[i + j] = s2[j];
-		j++;
-	}
 	str[i + j] = '\0';
+	free(s1);
 	return (str);
 }
