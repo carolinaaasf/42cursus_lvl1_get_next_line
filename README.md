@@ -1,4 +1,4 @@
-# 42cursus_lvl1_Get_next_line
+# *get_next_line* (42cursus_lvl1)
 # Grade: 100/100
 ### Subject: [click here](Extras/en.subject.pdf)
 This repository includes all the files and functions from the get_next_line individual project from 42 cursus (level 1). <br />
