@@ -12,12 +12,13 @@ The goal of the project is to create a function that is able to read from a file
 For this project, I ran 2 testers created by other users, which results and repositories are the ones below:<br />
 #### [gnl-station-tester](https://github.com/kodpe/gnl-station-tester) <br />
 (with TIMEOUT set to 500000) <br />
-![Alt text](Extras/unit_test_mandatory.png "unit_test_mandatory") <br />
-![Alt text](Extras/unit_test_bonus.png "unit_test_bonus") <br />
+![Alt text](Extras/station_tester_1.png "station_tester_1") <br />
+![Alt text](Extras/station_tester_1.png "station_tester_1") <br />
 
-#### [libft-war-machine](https://github.com/0x050f/libft-war-machine) <br />
-![Alt text](Extras/war_machine_mandatory.png "war_machine_mandatory") <br />
-![Alt text](Extras/war_machine_bonus.png "war_machine_bonus") <br />
+#### [gnlTester](https://github.com/Tripouille/gnlTester) <br />
+![Alt text](Extras/gnlTester_mandatory.png "gnlTester_mandatory") <br />
+![Alt text](Extras/gnlTester_bonus1.png "gnlTester_bonus1") <br />
+![Alt text](Extras/gnlTester_bonus2.png "gnlTester_bonus2") <br />
 --------
 Made by Carolina Figueiredo (carolinaaasf) | csilva-f@student.42porto.com <br />
 LinkedIn: https://www.linkedin.com/in/carolina-silva-figueiredo/
