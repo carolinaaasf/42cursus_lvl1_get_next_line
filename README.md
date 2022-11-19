@@ -6,7 +6,7 @@ The goal of the project is to create a function that is able to read from a file
 
 ### To run the project:
 1 - Clone the repository:<br />
-`https://github.com/carolinaaasf/42cursus_lvl1_Get_next_line.git`
+`git clone https://github.com/carolinaaasf/42cursus_lvl1_Get_next_line.git`
 
 ### Testing:
 For this project, I ran 2 testers created by other users, which results and repositories are the ones below:<br />
