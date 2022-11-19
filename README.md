@@ -20,5 +20,5 @@ For this project, I ran 2 testers created by other users, which results and repo
 ![Alt text](Extras/gnlTester_bonus1.png "gnlTester_bonus1") <br />
 ![Alt text](Extras/gnlTester_bonus2.png "gnlTester_bonus2") <br />
 --------
-Made by Carolina Figueiredo (carolinaaasf) | csilva-f@student.42porto.com <br />
+Carolina Figueiredo (carolinaaasf) | csilva-f@student.42porto.com <br />
 LinkedIn: https://www.linkedin.com/in/carolina-silva-figueiredo/
