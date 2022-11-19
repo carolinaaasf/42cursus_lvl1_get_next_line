@@ -15,7 +15,7 @@ For this project, I ran 2 testers created by other users, which results and repo
 ![Alt text](Extras/station_tester_2.png "station_tester_2") <br />
 
 #### [gnlTester](https://github.com/Tripouille/gnlTester) <br />
-(with TIMEOUT set to 500000) <br />
+##### (with TIMEOUT set to 500000) <br />
 ![Alt text](Extras/gnlTester_mandatory.png "gnlTester_mandatory") <br />
 ![Alt text](Extras/gnlTester_bonus1.png "gnlTester_bonus1") <br />
 ![Alt text](Extras/gnlTester_bonus2.png "gnlTester_bonus2") <br />
