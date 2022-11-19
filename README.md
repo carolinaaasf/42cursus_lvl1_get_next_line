@@ -11,7 +11,7 @@ The goal of the project is to create a function that is able to read from a file
 ### Testing:
 For this project, I ran 2 testers created by other users, which results and repositories are the ones below:<br />
 #### [gnl-station-tester](https://github.com/kodpe/gnl-station-tester) <br />
-(with TIMEOUT set to 500000)
+(with TIMEOUT set to 500000) <br />
 ![Alt text](Extras/unit_test_mandatory.png "unit_test_mandatory") <br />
 ![Alt text](Extras/unit_test_bonus.png "unit_test_bonus") <br />
 
